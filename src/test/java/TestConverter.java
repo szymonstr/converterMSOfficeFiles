@@ -17,22 +17,21 @@ public class TestConverter {
     public static void main(String[] args){
 
         System.out.println("Start conversion...");
-        ///*
+        /*
         System.out.println("Start: docx -> pdf");
-        //converter.ConvertToPDF(docx, pdfDocx);
+        converter.ConvertDocxToPDF(docx, pdfDocx);
         System.out.println("Finish: docx -> pdf");
         //*/
-        /*
+        ///*
         System.out.println("Start: xlsx -> pdf");
-        converter.ConvertToPDF(xlsx, pdfXlsx);
+        converter.ConvertXlsxToPDF(xlsx, pdfXlsx);
         System.out.println("Finish: xlsx -> pdf");
-
-         */
+        // */
         /*
         System.out.println("Start: pptx -> pdf");
-        converter.ConvertToPDF(pptx, pdfPptx);
+        converter.ConvertPptxToPDF(pptx, pdfPptx);
         System.out.println("Finish: pptx -> pdf");
-        */
+        //*/
         System.out.println("Conversion Ended");
 
     }
